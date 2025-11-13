@@ -121,3 +121,16 @@ a{ color:inherit; text-decoration:none; }
 @media (max-width: 420px){
   .site-nav a{ font-size:13px; }
 }
+
+
+/* すべてのリンク文字を青色にする */
+a {
+  color: #0066ff;   /* 好きな青に変更可能 */
+  text-decoration: none; /* 下線を消す場合。残したいなら消してください */
+}
+
+/* ホバー時の色（お好みで） */
+a:hover {
+  color: #0044cc;
+  text-decoration: underline;
+}
